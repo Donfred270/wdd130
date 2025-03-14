@@ -25,3 +25,43 @@ nav a {
   p {
     padding: 10px;
   }
+
+  /* Limit the width of <main> */
+main {
+  max-width: 1200px;
+  margin: 0 auto; /* Center the content */
+}
+
+/* Styles for <aside> */
+aside {
+  width: 80%; /* 80% width of the parent element */
+  margin: 20px auto; /* Vertical margin and centered horizontally */
+  border: 2px solid #ccc; /* Light grey border */
+  padding: 15px;
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Dark text color */
+}
+
+/* Modify the image in <aside> */
+aside img {
+  width: 200px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for images in <main> */
+main img {
+  width: 150px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Remove padding from <p> */
+p {
+  padding: 0;
+}
+
+/* Styles for <footer> */
+footer {
+  margin-top: 30px; /* Top margin */
+  border-top: 2px solid #333; /* Dark top border */
+  text-align: center; /* Center the text */
+}
