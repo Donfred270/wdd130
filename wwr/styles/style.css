@@ -1,51 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
+/*Colors*/
 :root {
     --primary-color: #1d2580;
     --secondary-color: #FF9703;
@@ -55,13 +8,13 @@ table {
     --text-color2: #ffffff;
     --background-color: #edf7ff;
 
+/*font*/
+  --font-family-main: 'montserrat', 'Arial', sans-serif; 
+  --nav-font-size: 16px; 
+  --nav-font-weight: bold;
 
-  --font-family-main: 'montserrat', 'Arial', sans-serif; /* Famille de police principale */
-  --nav-font-size: 16px; /* Taille de police de base */
-  --nav-font-weight: bold; /* Poids de police normal */
 
-
-  --line-height-base: 1.5; /* Interligne de base */
+  --line-height-base: 1.5;
 }
   
   body {
