@@ -1,8 +1,8 @@
 :root {
     --primary-color: #073b4c;
-    --secondary-color: #118ab2;
+    /*--secondary-color: #118ab2;*/
     --accent1-color: #ffd166;
-    --accent2-color: #f7f4ea;
+    /*--accent2-color: #f7f4ea;*/
     --heading-color: #ffffff;
     --text-color: #1e293b;
 
@@ -112,7 +112,7 @@ article {
     left: 30px;
     min-height: 150px;
     padding: 20px;
-    background-color: rgb(247 244 234 / 60%);
+    background-color: rgb(247 244 234 / 70%);
     color: var(--text-color);
 }
 
