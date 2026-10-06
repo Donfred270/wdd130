@@ -14,8 +14,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Kiskeya Rapids home">
-      <img src="images/kiskeya-rapids-logo-text-navy.webp" alt="Kiskeya Rapids logo" width="500"
-        height="186">
+      <img src="images/kiskeya-navy.webp" alt="Kiskeya Rapids logo" width="500" height="186">
     </a>
     <nav class="primary-nav" aria-label="Main navigation">
       <a href="index.html">Home</a>
@@ -42,9 +41,9 @@
         </address>
         <p class="sample-note">Sample contact details for a course project.</p>
       </div>
-      <iframe
+      <iframe class="contact-map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13383.400051955921!2d-46.434279084205606!3d-23.445414374153266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce638c3ed2050d%3A0x8b708fd9c05a798a!2sBauducco%20Loja%20F%C3%A1brica%20Guarulhos%20Bonsucesso!5e1!3m2!1sfr!2sbr!4v1791283630971!5m2!1sfr!2sbr"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        width="600" height="450" allowfullscreen="" loading="lazy"
         referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </section>
 
@@ -84,11 +83,21 @@
 
         <fieldset class="message-purpose">
           <legend>Purpose of your message</legend>
-          <label><input type="radio" name="purpose" value="general" required> General
-            Inquiry</label>
-          <label><input type="radio" name="purpose" value="reservation"> Reservation
-            Question</label>
-          <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+          <label for="general-inquiry">
+            <input type="radio" id="general-inquiry" name="purpose" value="general" required>
+            General Inquiry
+          </label>
+
+          <label for="reservation-question">
+            <input type="radio" id="reservation-question" name="purpose" value="reservation">
+            Reservation Question
+          </label>
+
+          <label for="website-suggestion">
+            <input type="radio" id="website-suggestion" name="purpose" value="suggestion">
+            Website Suggestion
+          </label>
         </fieldset>
 
         <div class="form-field">
