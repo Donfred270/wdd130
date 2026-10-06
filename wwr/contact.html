@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Contact Kiskeya Rapids to ask about guided rafting trips, reservations, and river adventures in Haiti.">
+  <meta name="author" content="Donfred Vallon">
+  <title>Contact Us | Kiskeya Rapids</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Kiskeya Rapids home">
+      <img src="images/kiskeya-rapids-logo-text-navy.webp" alt="Kiskeya Rapids logo" width="500"
+        height="186">
+    </a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html" aria-current="page">Contact Us</a>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <section class="contact-intro" aria-labelledby="contact-title">
+      <h1 id="contact-title">Contact Kiskeya Rapids</h1>
+      <p>Have a question about a river adventure? Get in touch with our team.</p>
+    </section>
+
+    <section class="contact-details" aria-labelledby="company-title">
+      <div class="contact-info">
+        <h2 id="company-title">Company Information</h2>
+        <address>
+          Guarulhos, <br>
+          Sao paulo<br>
+          <a href="tel:+50955550100">+509 5555 0100</a><br>
+          <a href="mailto:hello@kiskeyarapids.example">hello@kiskeyarapids.example</a>
+        </address>
+        <p class="sample-note">Sample contact details for a course project.</p>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13383.400051955921!2d-46.434279084205606!3d-23.445414374153266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce638c3ed2050d%3A0x8b708fd9c05a798a!2sBauducco%20Loja%20F%C3%A1brica%20Guarulhos%20Bonsucesso!5e1!3m2!1sfr!2sbr!4v1791283630971!5m2!1sfr!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+
+    <section class="team" aria-labelledby="team-title">
+      <h2 id="team-title">Meet Our Team</h2>
+      <div class="team-gallery">
+        <figure>
+          <img src="images/team-guide.webp" alt="Portrait of a rafting guide in a blue helmet"
+            width="320" height="320" loading="lazy">
+          <figcaption>Lead River Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/team-coordinator.webp"
+            alt="Portrait of a trip coordinator beside the river" width="320" height="320"
+            loading="lazy">
+          <figcaption>Reservations Coordinator</figcaption>
+        </figure>
+        <figure>
+          <img src="images/client.jpg" alt="Portrait of a smiling team member in rafting gear"
+            width="320" height="320" loading="lazy">
+          <figcaption>Safety Specialist</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact-form-section" aria-labelledby="form-title">
+      <h2 id="form-title">Send Us a Message</h2>
+      <form class="contact-form" action="#" method="get">
+        <div class="form-field">
+          <label for="full-name">Name</label>
+          <input type="text" id="full-name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+
+        <fieldset class="message-purpose">
+          <legend>Purpose of your message</legend>
+          <label><input type="radio" name="purpose" value="general" required> General
+            Inquiry</label>
+          <label><input type="radio" name="purpose" value="reservation"> Reservation
+            Question</label>
+          <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+        </fieldset>
+
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+
+        <label class="newsletter-option" for="newsletter">
+          <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+          Please subscribe me to the monthly newsletter
+        </label>
+
+        <button type="submit">Send Message</button>
+        <p class="sample-note">Course demo: this form does not deliver messages yet.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Kiskeya Rapids | Donfred Vallon</p>
+    <nav class="socialmedia" aria-label="Social media">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+        aria-label="Facebook">
+        <img src="images/icon/facebook.png" alt="Facebook" width="28" height="28">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+        aria-label="Instagram">
+        <img src="images/icon/instagram.png" alt="Instagram" width="28" height="28">
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+        aria-label="Linkedin">
+        <img src="images/icon/linkedin.png" alt="linkedin" width="28" height="28">
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>
